@@ -10,7 +10,14 @@ If you use this code in your scientific work, please cite the
 following paper:
 
 ```bibtex
-lorem ipsum
+@article{adepu2023melanoma,
+  title={Melanoma classification from dermatoscopy images using knowledge distillation for highly imbalanced data},
+  author={Adepu, Anil Kumar and Sahayam, Subin and Jayaraman, Umarani and Arramraju, Rashmika},
+  journal={Computers in Biology and Medicine},
+  pages={106571},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
 
 <p align="center">
@@ -24,3 +31,10 @@ lorem ipsum
 * Tensorflow: 2.4.0 or above
 * TensorFlow Addons: 0.14.0 or above
 * Python: 3.7 or above
+
+
+### Processed Datasets
+* __JPEG__: [https://www.kaggle.com/datasets/akra98/isic2020-jpg-256x256-inpainted2](https://www.kaggle.com/datasets/akra98/isic2020-jpg-256x256-inpainted2). Code to re-generate these images is available under `preprocess` directory above.
+* __TFRECORDS__: [https://www.kaggle.com/datasets/aniladepu/isic2020-tfrec-256x256-inpainted2](https://www.kaggle.com/datasets/aniladepu/isic2020-tfrec-256x256-inpainted2). A sample code to create tfrecords is available [here](https://www.kaggle.com/code/aniladepu/create-tfrecords/notebook).
+
+
