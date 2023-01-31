@@ -9,7 +9,7 @@ Official code for the paper: [Melanoma classification from dermatoscopy images u
 
 ### Citation
 
-If you use this code in your scientific work, please cite the
+If you use this code in your work, please cite the
 following paper:
 
 ```bibtex
